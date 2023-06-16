@@ -1,0 +1,98 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+
+
+*{ /*reset di tutte le impostazioni del browser*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Reset CSS per resettare i margini e i padding predefiniti */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stile per l'intera pagina */
+/* Stile per l'intera pagina */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aefaff; /* Azzurro chiaro */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Stile per l'header */
+header {
+  text-align: center;
+  background-color: #FFEB3B; /* Giallo */
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #333; /* Nero */
+}
+
+header h2 {
+  font-size: 18px;
+  color: #666; /* Grigio scuro */
+}
+
+/* Stile per la navbar */
+nav {
+  text-align: center;
+  background-color: #FFF; /* Bianco */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Nero */
+  padding: 5px;
+}
+
+/* Stile per il corpo della pagina */
+section {
+  flex: 1;
+  display: flex;
+  margin: 20px;
+}
+
+article {
+  flex: 2;
+  background-color: #FFF; /* Bianco */
+  padding: 10px;
+}
+
+aside {
+  flex: 1;
+  background-color: #FFEB3B; /* Giallo */
+  padding: 10px;
+}
+
+/* Stile per il footer */
+footer {
+  text-align: center;
+  background-color: #333; /* Nero */
+  color: #FFF; /* Bianco */
+  padding: 10px;
+  float:left;
+  display: block;
+  background-attachment: fixed;
+
+}
+
+  
